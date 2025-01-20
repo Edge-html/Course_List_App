@@ -110,7 +110,6 @@ fun CourseList(courseList: List<Topic>, modifier: Modifier = Modifier){
             .fillMaxSize()
             .padding(horizontal = 4.dp)
     ) {
-        // Generate items
         items(courseList) { course ->
             CourseCard(
                 topic = course,
